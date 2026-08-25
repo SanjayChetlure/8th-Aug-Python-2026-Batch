@@ -1,7 +1,7 @@
 print("------Ex1: function without parameter--------")
 
 #With 2 parameter function
-def add(num1,num2):    #num1=9, num2=18
+def add(num1,num2):    #num1=4, num2=5
     num3=num1+num2
     print(num3)
 

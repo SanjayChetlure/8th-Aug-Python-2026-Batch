@@ -6,14 +6,16 @@ def f1():                             #function declaration
     print("hello")
     print("function ended")
 
+
+
 f1()           #functionName()   -> function calling
 f1()
 
 print("---")
 
 def add():
-    num1=10
-    num2=20
+    num1=30
+    num2=40
     num3=num1+num2
     print(num3)
 
