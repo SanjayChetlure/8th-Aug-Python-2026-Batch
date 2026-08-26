@@ -1,4 +1,4 @@
-print("------Ex1: function without parameter--------")
+print("------Ex2: function without parameter--------")
 
 #With 2 parameter function
 def add(num1,num2):    #num1=4, num2=5
