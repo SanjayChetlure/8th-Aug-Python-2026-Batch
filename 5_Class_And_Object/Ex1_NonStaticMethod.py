@@ -39,7 +39,7 @@ class ArithmaticOp:
         num3 = num1 / num2
         print(num3)
 
-d2=ArithmaticOp()
+d2=ArithmaticOp()      #contructor
 d2.add(7,8)
 d2.mult(7,8)
 d2.sub(60,40)
