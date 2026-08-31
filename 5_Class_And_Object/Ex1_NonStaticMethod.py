@@ -15,7 +15,7 @@ class Demo1:            #class declaration
 #2: method call
 # objectName=className()
 # objectName.methodName()
-d1=Demo1()                #1: object creation
+d1=Demo1()                #1: object creation  -> copy all data from class into object
 d1.m1()                   #2: method calling
 d1.findSquareOfNum(5)
 d1.findSquareOfNum(6)
