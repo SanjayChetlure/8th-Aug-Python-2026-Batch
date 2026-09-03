@@ -17,6 +17,7 @@ class Demo1:
 
 d1=Demo1()        #Object Creation -> constructor calling
 d1.m1()
+d1.m2()
 
 
 # 1: d1 -> objectName   -> use to refer/identify an object

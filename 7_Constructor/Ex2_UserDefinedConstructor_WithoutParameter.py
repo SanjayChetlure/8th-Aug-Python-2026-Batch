@@ -37,7 +37,6 @@ class Demo3:
     def mult(self):
         print(self.num1 * self.num2)
 
-
 d3=Demo3()
 d3.add()
 d3.mult()
