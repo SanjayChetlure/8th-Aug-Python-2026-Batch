@@ -19,5 +19,5 @@ class Demo1:
         print("running static method m3 from Demo1 class")
 
 
-add(2,3)
+
 
