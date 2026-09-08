@@ -1,4 +1,4 @@
-from statistics import multimode
+
 
 print("-----Ex2: Examples of Modules (Apr2)----")
 
@@ -8,7 +8,7 @@ print("-----Ex2: Examples of Modules (Apr2)----")
 
 # fn()       #function calling
 #
-# obj1=className()       #object Creatiom
+# obj1=className()       #object Creation
 # obj1.methodName()      #non-static method calling
 #
 # # className.methodName()     #static method calling

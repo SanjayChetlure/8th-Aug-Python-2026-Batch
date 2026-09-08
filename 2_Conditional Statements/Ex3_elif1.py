@@ -34,6 +34,7 @@ elif shoppingAmt<5000:
 print("----------")
 
 
+
 shoppingAmt=500
 
 if shoppingAmt>=20000:
