@@ -105,6 +105,53 @@ except Exception as s1:
 print("program ended")
 
 
+print("-----4: Example of Correct way of using Generic exception-------")
+n1=10
+n2=0
+
+print("program started")
+try:
+   print(n1/n2)
+except ValueError:
+   print("Value Error Handled")
+except ZeroDivisionError:
+   print("ZeroDivisionError handled")
+except Exception as e:
+   print("Generic Exception handled")
+   print(e)
+
+print("program ended")
+
+
+
+
+
+print("--------6: Example of finally block-------------")
+a=10
+b=0
+div=0
+try:
+  div=a/b
+except:
+   print("Exception Handled")
+finally:
+   print("running finally block")
+
+
+print(div)
+print("Hi Hello")
+
+
+print("------7: Throw exception using raise keyword-------")
+
+age=15
+
+if age<18:
+    raise Exception("Age must be 18 or above")
+
+
+
+
 
 
 
