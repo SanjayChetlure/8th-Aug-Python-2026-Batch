@@ -1,3 +1,5 @@
+from logging import exception
+
 print("----Program without exception handling-----")
 
 
@@ -129,7 +131,7 @@ print("program ended")
 print("--------6: Example of finally block-------------")
 a=10
 b=0
-div=0
+
 try:
   div=a/b
 except:
@@ -145,8 +147,11 @@ print("Hi Hello")
 print("------7: Throw exception using raise keyword-------")
 
 age=15
-
+try:
 if age<18:
+except:
+
+
     raise Exception("Age must be 18 or above")
 
 
